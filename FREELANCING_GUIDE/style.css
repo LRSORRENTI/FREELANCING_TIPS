@@ -4,6 +4,14 @@
   --ojDream: #e68e36;
   --realBlue: #556dc8;
   --kaiBlue: #7998ee;
+  --aquaJet: #50bcb9;
+}
+
+html {
+  background: linear-gradient(217deg, var(--kaiBlue), var(--loveRed) 70.71%),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%)
+      no-repeat;
 }
 
 .container {
@@ -21,14 +29,49 @@
   font-size: 20px;
   border-radius: 30px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  color: #50bcb9;
-  margin-top: 20px;
+  color: var(--aquaJet);
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
+  box-shadow: 12px 12px 20px 7px var(--aquaJet),
+    12px 12px 20px 7px var(--ojDream), 12px 12px 20px 7px var(--ojDream);
+  text-shadow: -1px -1px 10px var(--kaiBlue), 1px -1px 10px var(--kaiBlue),
+    -1px 1px 10px var(--ojDream), 1px 1px 10px var(--loveRed);
 }
 
 h1 {
   font-size: 3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-title {
+  font-size: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#card-title2 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.5rem;
+}
+#three {
+  font-size: 2.5rem;
+}
+
+li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  /* margin-left: 2px; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
