@@ -31,13 +31,14 @@ html {
   display: flex;
   justify-content: center;
   color: var(--aquaJet);
-  margin-top: 20px;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
-  box-shadow: 12px 12px 20px var(--aquaJet);
-  text-shadow: -1px -1px 10px #000, 1px -1px 10px #000, -1px 1px 10px #000,
-    1px 1px 10px #000;
+  box-shadow: 12px 12px 20px 7px var(--aquaJet),
+    12px 12px 20px 7px var(--ojDream), 12px 12px 20px 7px var(--ojDream);
+  text-shadow: -1px -1px 10px var(--kaiBlue), 1px -1px 10px var(--kaiBlue),
+    -1px 1px 10px var(--ojDream), 1px 1px 10px var(--loveRed);
 }
 
 h1 {
