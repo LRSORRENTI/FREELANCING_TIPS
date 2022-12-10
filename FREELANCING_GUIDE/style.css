@@ -1,0 +1,34 @@
+:root {
+  --deepPurp: #461e52;
+  --loveRed: #dd517f;
+  --ojDream: #e68e36;
+  --realBlue: #556dc8;
+  --kaiBlue: #7998ee;
+}
+
+.container {
+  /* box-sizing: border-box;
+  border: 1px solid slateblue;
+  display: flex;
+  justify-content: center;
+   */
+  width: 500px;
+  background: linear-gradient(to right, var(--kaiBlue), var(--loveRed));
+  box-sizing: border-box;
+  padding: 25px;
+  border: 5px solid var(--ojDream);
+  font-weight: 900;
+  font-size: 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  color: #50bcb9;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+h1 {
+  font-size: 3em;
+}

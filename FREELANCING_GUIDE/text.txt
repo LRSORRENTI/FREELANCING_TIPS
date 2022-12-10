@@ -1,0 +1,51 @@
+There's three points of liability. 
+
+1. The first is transaction security.
+
+- If you're dealing with sensitive info like 
+CC numbers or payments or Healthcare info, 
+then you can get sued out the ass if a breach 
+is due to faulty code.
+
+ There are actually legal 
+standards for maintaining any of this info and/or
+ transacting it.
+
+2. The second is uptime. 
+
+- If you not only build a 
+website but maintain it under some sort of 
+agreement AND if the customer has no direct 
+way to maintain it themselves in an emergency, 
+you may be on the hook for lost revenues caused 
+by an outage.
+
+3. The third and final is not meeting benefit
+ targets. 
+ 
+ - If you tell a customer that
+ redesigning their website will get them more
+ direct sales, and if sales maintain or 
+decrease, then you possibly could be liable for
+ lying about the services or products rendered.
+
+Now, these are in order from most likely
+ to least likely. 
+ 
+ Easy way around the first one
+ is to use pre-made tools to ensure someone 
+smarter than you covered your ass and so that 
+you can possibly shift the blame to the tool's
+ maintainer.
+ 
+  The second one can be solved by 
+having a legally-sound service agreement signed 
+by the customer ahead of time that sets
+ standards for outage responses.
+ 
+ 
+ The last one can be avoided by just not 
+promising the customer any specific benefits 
+related to sales increase or cost deduction.
+
+Hope this helps!
